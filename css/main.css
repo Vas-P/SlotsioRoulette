@@ -764,6 +764,12 @@ button:disabled {
     }
 }
 
+@media screen and (max-height: 580px){
+    .content{
+        top: -webkit-calc(50% - 355px/2);
+        top: calc(50% - 355px/2);
+    }
+}
 @media screen and (max-height: 460px) {
     body {
         min-height:580px;
