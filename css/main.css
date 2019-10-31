@@ -771,7 +771,8 @@ button:disabled {
         top: calc(50% - 355px/2);
     }
     .footer-text{
-        bottom: 40px;
+        bottom: 0px;
+        padding-bottom: 30px;
     }
 }
 @media screen and (max-height: 460px) {
